@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: fit-content;
+    background-color: #e1e7e1;
+    overflow-x: hidden;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.logo-div{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-div span{
+    align-self: center;
+}
+.logo-div img{
+    width: 50px;
+    margin-right: 10px;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #e1e7e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 3px;
+    white-space: nowrap;
+    color: black;
+    font-weight: 500;
+}
+.menu-btn{
+    position: absolute;
+    left: 2%;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: last baseline;
+}
+.right-side span:hover{
+    color: #004e64;
+}
+.slideshow{
+    background-color: rgba(138, 114, 114, 0.37);
+    
+    height: 90vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.slideshow img{
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 90%;
+    border: solid 0.5px  #7d7c7c;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+.line1{
+    width: 90%;
+    border: solid 0.5px  #7d7c7c;
+    overflow: hidden;
+    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+.about-tag, .getintouch{
+    text-align: end;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+}
+.donate{
+    height: 30px;
+    color: white;
+    background-color: #2f6b3a;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.objectives, .mission{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #004e64;
+    font-weight: 500;
+    line-height: 30px
+}
+
+.details p{
+    width: 40%;
+    background-color: rgba(202, 193, 154, 0);
+    margin-top: 60px;
+}
+.details{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+   
+}
+.details img{
+    width: 50%;
+}
+.latest-stories{
+    display: grid;
+    grid-template-columns:25% 25% 25% ;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    row-gap: 15%;
+    
+}
+.latest-stories h3{
+    position: absolute;
+    top: -55px;
+    left: 0%;
+    color: #004e64;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-dis img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.image-dis{
+    height: 100%;
+    
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    min-width:250px;
+    justify-content: center;
+    color: white;
+}
+.text-dis{
+    background-color: rgb(39, 38, 38);
+    height: 100%;
+    padding: 5px;
+    border-radius: 0  0 10px  10px ;
+}
+.viewmore{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    font-style: italic;
+    text-decoration: underline;
+    color: #004e64;
+}
+footer{
+    background-color: #7d7c7c;
+    color: #e1e7e1;
+    height: 320px;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.circle h3{
+    border-bottom: 1px solid ;
+    padding-bottom: 5px;
+}
+.circle{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-between;
+    background-image: url(Circle\ awareness\ logo.png);
+    background-size: contain;
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-btn{
+    background-color: #004e64;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 40px;
+    font-size: 13px;
+}
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.right-footer img{
+    width: 32px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 2%;
+}
+.cpr{
+    display: flex;
+    align-items: center;
+}
+.cpr i{
+    margin-right: 1%;
+}
+.backtotop{
+    border-bottom:solid 3px #ffc107 ;
+}
+.newsletter{
+    color: black;
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.input-div input{
+   
+    border: none;
+    width: 250px;
+    height: 25px;
+    padding-left: 2%;
+}
+.input-div button{
+    color: white;
+    background-color: #ffc107;
+    border: none;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+@media (max-width: 750px) {
+    
+    .slideshow{
+       margin: 0;
+        background-image: url(ACT\ NOW\ mobile.png);
+        background-size: cover;
+        
+    }
+    .slideshow img{
+        display: none;
+    }
+    .header{
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+    .right-side{
+        display: none;
+
+    }
+    .donate{
+        display: none;
+       
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        overflow: hidden;
+    }
+    .details p{
+        width: 300px;
+        font-size: 13px;
+       margin-top: 30px;
+    }
+    .details img{
+        display: none;
+    }
+
+    .objectives, .mission{
+        margin-top: 20px;
+       align-items: center;
+       overflow: hidden;
+    }
+    .latest-stories{
+      display: flex;
+      row-gap: 50px;
+    }
+    .story{
+        width: 300px;
+    }
+    .latest-stories h3{
+       position: relative;
+       left: 0;
+       right: 0;
+    }
+    footer{
+       padding-right: 10%;
+       padding-left: 10%;
+       flex-direction: column;
+    }
+   .circle{
+    width: 50%;
+   }
+   .mail{
+    display: block;
+    border: none;
+   }
+   
+   .latest-stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .story{
+        width: 300px;
+    }
+    .socialmedia{
+        position: absolute;
+        top:5%;
+    }
+   .copyright{
+        position:absolute ;
+        left: 10%;
+        bottom: 3%;
+        font-size: 11px;
+        
+   }
+   .viewmore{
+    right: 5%;
+   }
+}
+
+@media (min-width: 750px) {
+    .objectives h2{
+        display: flex;
+        align-self: flex-start;
+    }
+    .mission h2{
+        display: flex;
+        margin-left: 60%;
+    }
+.menu-btn{
+    display: none;
+}
+}
+
+
+/*animations*/
+/* Default: Hidden state */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+  }
+  
+  /* When element is in view */
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+    overflow-x: hidden;
+  }
+  
+  /* Slide from left */
+  .slide-in-left {
+    transform: translateX(-10px);
+  }
+  
+  .slide-in-left.show {
+    transform: translateX(0);
+  }
+  
+  /* Slide from right */
+  .slide-in-right {
+    transform: translateX(50px);
+  }
+  
+  .slide-in-right.show {
+    transform: translateX(0);
+  }
